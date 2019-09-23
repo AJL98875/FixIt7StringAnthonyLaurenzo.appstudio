@@ -13,4 +13,5 @@ let lowerCaseString = secondQuote.toLowerCase()
 
 console.log(secondQuote.charAt(3))
 
-let findString = secondQuote
+let findString = secondQuote.slice(35, 120)
+console.log(findString)
